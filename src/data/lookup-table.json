@@ -1,0 +1,74 @@
+[
+    {
+        "status": "Pending",
+        "name": "Waiting",
+        "desc": "Waiting",
+        "priority": 0
+    },
+    {
+        "status": "Unprocessed",
+        "name": "Server Unavailable",
+        "desc": "Server Unavailable",
+        "priority": 1
+    },
+    {
+        "status": "Error",
+        "name": "Proccessing Error",
+        "desc": "Proccessing Error",
+        "priority": 2
+    },
+    {
+        "status": "Error-CNF",
+        "name": "Not Found",
+        "desc": "Could Not Find",
+        "priority": 3
+    },
+    {
+        "status": "NOF",
+        "name": "Non-fundus",
+        "desc": "Non-fundus Image",
+        "priority": 5
+    },
+    {
+        "status": "UND",
+        "name": "Undiagnosible",
+        "desc": "Undiagnosible",
+        "priority": 10
+    },
+    {
+        "status": "NRML",
+        "name": "Normal",
+        "desc": "Normal",
+        "priority": 15
+    },
+    {
+        "status": "OTHR",
+        "name": "Other",
+        "desc": "Other Abnormality",
+        "priority": 20
+    },
+    {
+        "status": "NODR",
+        "name": "Non-DR",
+        "desc": "Non-DR",
+        "priority": 22
+    },
+    {
+        "status": "DR",
+        "name": "DR",
+        "desc": "Diabetic Retinopathy",
+        "priority": 25
+    },
+    {
+        "status": "D2",
+        "name": "NPDR",
+        "desc": "Non-Proliferative Diabetic Retinopathy",
+        "priority": 30
+    },
+    {
+        "status": "D1",
+        "name": "PDR",
+        "desc": "Proliferative Diabetic Retinopathy",
+        "priority": 35
+    }
+]

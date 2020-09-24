@@ -1,0 +1,140 @@
+
+
+/* default theme */
+#default {
+  display: flex;
+  .profile-section {
+    color: #0c6890;
+    text-align: center;
+    padding-bottom: 2px;
+    font-size: 13px;
+    background: rgb(254, 255, 255);
+    background: -moz-radial-gradient(
+      center,
+      ellipse cover,
+      rgba(254, 255, 255, 1) 0%,
+      rgba(221, 241, 249, 1) 35%,
+      rgba(160, 216, 239, 1) 100%
+    );
+    background: -webkit-radial-gradient(
+      center,
+      ellipse cover,
+      rgba(254, 255, 255, 1) 0%,
+      rgba(221, 241, 249, 1) 35%,
+      rgba(160, 216, 239, 1) 100%
+    );
+    background: radial-gradient(
+      ellipse at center,
+      rgba(254, 255, 255, 1) 0%,
+      rgba(221, 241, 249, 1) 35%,
+      rgba(160, 216, 239, 1) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=1 );
+  }
+  .MuiListItem-root.Mui-selected,
+  .MuiListItem-root.Mui-selected:hover {
+    background-color: #1769aa;
+    color: #ffffff;
+  }
+  .MuiListItem-root.Mui-selected > .MuiListItemIcon-root {
+    color: #ffffff;
+  }
+}
+
+/* purple theme */
+#purple {
+  display: flex;
+  .MuiAppBar-root {
+    background-color: purple;
+  }
+  .MuiDrawer-paper {
+    color: #651e1f;
+    background: #ff5d5e !important;
+    box-shadow: 0px 0px 7px #ffe3ff !important;
+  }
+  .profile-section {
+    color: #791213;
+    text-align: center;
+    padding-bottom: 2px;
+    font-size: 13px;
+    background: rgb(254, 255, 255);
+    background: rgb(254, 187, 187); /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, rgba(254, 187, 187, 1) 0%, rgba(254, 144, 144, 1) 45%, rgba(255, 92, 92, 1) 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(254, 187, 187, 1) 0%, rgba(254, 144, 144, 1) 45%, rgba(255, 92, 92, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, rgba(254, 187, 187, 1) 0%, rgba(254, 144, 144, 1) 45%, rgba(255, 92, 92, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febbbb', endColorstr='#ff5c5c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  }
+  .MuiListItem-root.Mui-selected,
+  .MuiListItem-root.Mui-selected:hover {
+    background-color: #923c3c;
+    color: #ffffff;
+  }
+  .MuiListItem-root.Mui-selected > .MuiListItemIcon-root {
+    color: #ffffff;
+  }
+}
+
+/* green theme */
+#green {
+  display: flex;
+  .MuiAppBar-root {
+    background-color: green;
+  }
+  .MuiDrawer-paper {
+    color: #013c01;
+    background: #98bc62 !important;
+    box-shadow: 0px 0px 7px #ffe3ff !important;
+  }
+  .profile-section {
+    color: #004000;
+    text-align: center;
+    padding-bottom: 2px;
+    font-size: 13px;
+    background: rgb(201, 222, 150); /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, rgba(201, 222, 150, 1) 0%, rgba(138, 182, 107, 1) 70%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(201, 222, 150, 1) 0%, rgba(138, 182, 107, 1) 70%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, rgba(201, 222, 150, 1) 0%, rgba(138, 182, 107, 1) 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9de96', endColorstr='#8ab66b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  }
+  .MuiListItem-root.Mui-selected,
+  .MuiListItem-root.Mui-selected:hover {
+    background-color: green;
+    color: #ffffff;
+  }
+  .MuiListItem-root.Mui-selected > .MuiListItemIcon-root {
+    color: #ffffff;
+  }
+}
+
+/* orange theme */
+#orange {
+  display: flex;
+  .MuiAppBar-root {
+    background-color: white;
+    color: #d66200;
+  }
+  .MuiDrawer-paper {
+    color: #441f00;
+    background: #fe7400 !important;
+    box-shadow: 0px 0px 7px #ffe3ff !important;
+  }
+  .profile-section {
+    color: #791213;
+    text-align: center;
+    padding-bottom: 2px;
+    font-size: 13px;
+    background: rgb(255, 183, 107); /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, rgba(255, 183, 107, 1) 0%, rgba(255, 127, 4, 1) 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 183, 107, 1) 0%, rgba(255, 127, 4, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, rgba(255, 183, 107, 1) 0%, rgba(255, 127, 4, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ff7f04',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  }
+  .MuiListItem-root.Mui-selected,
+  .MuiListItem-root.Mui-selected:hover {
+    background-color: #984500;
+    color: #ffffff;
+  }
+  .MuiListItem-root.Mui-selected > .MuiListItemIcon-root {
+    color: #ffffff;
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "400": "Bad Request: The server did not understand the request.",
+  "401": "Unauthorized: Authentication is required.",
+  "403": "Forbidden: Access is forbidden to the requested page.",
+  "404": "Not Found: The server can not find the requested page.",
+  "500": "Internal Server Error: The request was not completed. The server met an unexpected condition.",
+  "501": "Not Implemented: The request was not completed. The server did not support the functionality required.",
+  "502": "Bad Gateway: The request was not completed. The server received an invalid response from the upstream server.",
+  "503": "Service Unavailable: The request was not completed. The server is temporarily overloading or down.",
+  "504": "Gateway Timeout: The gateway has timed out.",
+  "505": "HTTP Version Not Supported: The server does not support the 'http protocol' version."
+}
